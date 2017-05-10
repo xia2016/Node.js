@@ -3,7 +3,7 @@ var otherfun = require("./models/otherfuns.js");
 http.createServer(function  (request,  response)  {
     response.writeHead(200,  {'Content-Type':  'text/html;  charset=utf-8'});
     if(request.url!=="/favicon.ico"){  //清除第2此访问
-        funname = 'fun2';
+        funname = 'fun3';
         otherfun[funname](response);
         response.end('');//不写则没有http协议尾,但写了会产生两次访问
     }

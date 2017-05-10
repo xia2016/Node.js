@@ -1,4 +1,4 @@
-/**
+ /**
  * Created by Simon on 2017/3/24.
  */
 var User = require("./User");
